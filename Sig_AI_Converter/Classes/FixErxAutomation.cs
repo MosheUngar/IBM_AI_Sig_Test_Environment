@@ -32,7 +32,27 @@ namespace Sig_AI_Converter.Classes
                 }
             }
 
-    }
+        //gete data from the database
+        public static List<FixErxAutomation> GetFixErxAutomation()
+            {
+            List<FixErxAutomation> fixErxAutomations = new List<FixErxAutomation>();
+            using (var db = new SqlConnection(SqlConn.GetConnection()))
+                {
+                using (var command = new SqlCommand("SELECT * FROM dbo.FixAiErxAutomation_test\r\n", db))
+                    {
+                    command.CommandType = CommandType.Text;
+                    command.CommandTimeout = 0; // Set the command timeout here
+                    db.Open();
+                    using (var reader = command.ExecuteReader())
+                        {
+                        fixErxAutomations = reader.Parse<FixErxAutomation>().ToList();
+                        }
+                    }
+                }
+            return fixErxAutomations;
+            }
+
+        }
 
     //insert into the database
     }

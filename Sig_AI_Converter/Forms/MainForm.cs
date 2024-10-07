@@ -3,6 +3,7 @@ using DevExpress.XtraEditors;
 using DevExpress.XtraLayout;
 using DevExpress.XtraSplashScreen;
 using Newtonsoft.Json;
+using Sig_AI_Converter.Classes;
 using Sig_AI_Converter.Forms;
 using Sig_AI_Converter.IBM_AI;
 using System;
@@ -365,6 +366,14 @@ namespace Sig_AI_Converter
                 barCheckItem4.Caption = "Show Only Result";
                 }
             }
+
+        private void barButtonItem14_ItemClick(object sender, ItemClickEventArgs e)
+            {
+            FixSigData fixSigData = new FixSigData();
+            fixSigData.ShowDialog();
+
+            }
+
         }
     }
         
