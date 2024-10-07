@@ -68,14 +68,14 @@
             this.layoutControl1.Location = new System.Drawing.Point(0, 0);
             this.layoutControl1.Name = "layoutControl1";
             this.layoutControl1.Root = this.Root;
-            this.layoutControl1.Size = new System.Drawing.Size(606, 307);
+            this.layoutControl1.Size = new System.Drawing.Size(606, 401);
             this.layoutControl1.TabIndex = 0;
             this.layoutControl1.Text = "layoutControl1";
             // 
             // simpleButton2
             // 
             this.simpleButton2.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("simpleButton2.ImageOptions.SvgImage")));
-            this.simpleButton2.Location = new System.Drawing.Point(285, 259);
+            this.simpleButton2.Location = new System.Drawing.Point(285, 353);
             this.simpleButton2.Name = "simpleButton2";
             this.simpleButton2.Size = new System.Drawing.Size(309, 36);
             this.simpleButton2.StyleController = this.layoutControl1;
@@ -86,7 +86,7 @@
             // simpleButton1
             // 
             this.simpleButton1.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("simpleButton1.ImageOptions.SvgImage")));
-            this.simpleButton1.Location = new System.Drawing.Point(12, 259);
+            this.simpleButton1.Location = new System.Drawing.Point(12, 353);
             this.simpleButton1.Name = "simpleButton1";
             this.simpleButton1.Size = new System.Drawing.Size(269, 36);
             this.simpleButton1.StyleController = this.layoutControl1;
@@ -128,7 +128,7 @@
             this.emptySpaceItem1,
             this.emptySpaceItem2});
             this.Root.Name = "Root";
-            this.Root.Size = new System.Drawing.Size(606, 307);
+            this.Root.Size = new System.Drawing.Size(606, 401);
             this.Root.TextVisible = false;
             // 
             // layoutControlItem1
@@ -156,7 +156,7 @@
             // layoutControlItem3
             // 
             this.layoutControlItem3.Control = this.simpleButton1;
-            this.layoutControlItem3.Location = new System.Drawing.Point(0, 247);
+            this.layoutControlItem3.Location = new System.Drawing.Point(0, 341);
             this.layoutControlItem3.Name = "layoutControlItem3";
             this.layoutControlItem3.Size = new System.Drawing.Size(273, 40);
             this.layoutControlItem3.TextSize = new System.Drawing.Size(0, 0);
@@ -165,7 +165,7 @@
             // layoutControlItem4
             // 
             this.layoutControlItem4.Control = this.simpleButton2;
-            this.layoutControlItem4.Location = new System.Drawing.Point(273, 247);
+            this.layoutControlItem4.Location = new System.Drawing.Point(273, 341);
             this.layoutControlItem4.Name = "layoutControlItem4";
             this.layoutControlItem4.Size = new System.Drawing.Size(313, 40);
             this.layoutControlItem4.TextSize = new System.Drawing.Size(0, 0);
@@ -174,9 +174,10 @@
             // richTextBox1
             // 
             this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox1.Location = new System.Drawing.Point(12, 105);
+            this.richTextBox1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox1.Location = new System.Drawing.Point(12, 111);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(582, 120);
+            this.richTextBox1.Size = new System.Drawing.Size(582, 178);
             this.richTextBox1.TabIndex = 8;
             this.richTextBox1.Text = "";
             // 
@@ -186,9 +187,9 @@
             this.layoutControlItem5.AppearanceItemCaption.Options.UseFont = true;
             this.layoutControlItem5.Control = this.richTextBox1;
             this.layoutControlItem5.CustomizationFormText = "Please Explain Detailed What to fixed in the AI response";
-            this.layoutControlItem5.Location = new System.Drawing.Point(0, 77);
+            this.layoutControlItem5.Location = new System.Drawing.Point(0, 83);
             this.layoutControlItem5.Name = "layoutControlItem5";
-            this.layoutControlItem5.Size = new System.Drawing.Size(586, 140);
+            this.layoutControlItem5.Size = new System.Drawing.Size(586, 198);
             this.layoutControlItem5.Text = "Please provide detailed explanations of what needs to be fixed in the response:";
             this.layoutControlItem5.TextLocation = DevExpress.Utils.Locations.Top;
             this.layoutControlItem5.TextSize = new System.Drawing.Size(446, 13);
@@ -196,10 +197,10 @@
             // emptySpaceItem1
             // 
             this.emptySpaceItem1.AllowHotTrack = false;
-            this.emptySpaceItem1.Location = new System.Drawing.Point(0, 217);
+            this.emptySpaceItem1.Location = new System.Drawing.Point(0, 281);
             this.emptySpaceItem1.MinSize = new System.Drawing.Size(104, 24);
             this.emptySpaceItem1.Name = "emptySpaceItem1";
-            this.emptySpaceItem1.Size = new System.Drawing.Size(586, 30);
+            this.emptySpaceItem1.Size = new System.Drawing.Size(586, 60);
             this.emptySpaceItem1.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
             this.emptySpaceItem1.TextSize = new System.Drawing.Size(0, 0);
             // 
@@ -208,14 +209,14 @@
             this.emptySpaceItem2.AllowHotTrack = false;
             this.emptySpaceItem2.Location = new System.Drawing.Point(0, 60);
             this.emptySpaceItem2.Name = "emptySpaceItem2";
-            this.emptySpaceItem2.Size = new System.Drawing.Size(586, 17);
+            this.emptySpaceItem2.Size = new System.Drawing.Size(586, 23);
             this.emptySpaceItem2.TextSize = new System.Drawing.Size(0, 0);
             // 
             // FeedbackForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(606, 307);
+            this.ClientSize = new System.Drawing.Size(606, 401);
             this.Controls.Add(this.layoutControl1);
             this.Name = "FeedbackForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
